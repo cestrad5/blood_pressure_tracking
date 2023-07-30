@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    background-image: url('/src/assets/high-blood-pressure-monitoring.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
