@@ -29,22 +29,24 @@ function App() {
   }
 
   return (
-    <div className="container mx-auto mt-10">
-        <Header />
-      <div className="mt-12 md:flex">
-          <FormDB 
+<div className="w-full mt-10">
+    <Header />
+    <div className="mt-12 md:flex">
+        <FormDB 
             records={records}
             setRecords={setRecords}
             record={record}
             setRecord={setRecord}
-          />
-          <RecordList 
+        />
+        <RecordList 
             records={records}
             setRecord={setRecord}
             deleteRecord={deleteRecord}
-          />
-      </div>
+        />
     </div>
+</div>
+
+
   )
 }
 

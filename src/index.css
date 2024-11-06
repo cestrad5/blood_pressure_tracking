@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
+/* Imagen de fondo para todo el body */
+body {
     background-image: url('/src/assets/high-blood-pressure-monitoring.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed; /* Hace que el fondo se mantenga fijo */
+}
+
+/* Estilos para el contenedor, con fondo transparente */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
     min-height: 100vh;
+    width: 100%;
 }
